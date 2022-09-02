@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+import {useState} from "react" 
 import './App.css';
 
 function App() {
+  const [select, setSelect] = useState("home")
   return (
     <div>
       <header className="section sec1 header active">
@@ -15,19 +16,20 @@ function App() {
       </main>
   
       <div className="controlls">
-        <div className="control control1-1 active-btn">
+        {/* className={ select == "home ? "controller controller-1-1 active-btn" : "controller controller-1-1"} */}
+        <div onClick={()=>setSelect("home")} className={ select == "home"? "control control1-1 active-btn": "control control1-1"}>
         <i className="fas fa-home"></i>
         </div>
-        <div className="control control1-2">
+        <div onClick={()=>setSelect("user")} className={ select == "user"? "control control1-2 active-btn": "control control1-2"}>
           <i className="fas fa-user"></i>
         </div>
-        <div className="control control1-3">
+        <div onClick={()=>setSelect("briefcase")} className={ select == "briefcase"? "control control1-3 active-btn": "control control1-3"}>
           <i className="fas fa-briefcase"></i>
         </div>
-        <div className="control control1-4">
+        <div onClick={()=>setSelect("github")} className= { select == "github"? "control control1-4 active-btn": "control control1-4"}>
           <i className="fas fa-newspaper"></i>
         </div>
-        <div className="control control1-5">
+        <div onClick={()=>setSelect("envelope")} className={ select == "envelope"? "control control1-5 active-btn": "control control1-5"}>
           <i className="fas fa-envelope"></i>
         </div>
       </div>
