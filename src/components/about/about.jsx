@@ -1,7 +1,9 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/ME.jpg'
-import{FaAward} from "react-icons/fa"
+import { FaAward } from "react-icons/fa"
+import { FiUsers } from "react-icons/fi"
+import { VscFolderLibrary } from "react-icons/vsc"
 
 const about = () => {
   return (
@@ -12,7 +14,7 @@ const about = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-          <img src={ME} alt="about image"/>
+            <img src={ME} alt="about image" />
           </div>
         </div>
 
@@ -20,21 +22,23 @@ const about = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaAward className='about__icon'/>
+              <FaAward className='about__icon' />
               <h5>Experiences</h5>
               <small>3+ Years Work</small>
             </article>
             <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experiences</h5>
-              <small>3+ Years Work</small>
+              <FiUsers className='about__icon' />
+              <h5>clients</h5>
+              <small>300+ WorldWide</small>
             </article>
             <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experiences</h5>
-              <small>3+ Years Work</small>
+              <VscFolderLibrary className='about__icon' />
+              <h5>projects</h5>
+              <small>20 completed projects</small>
             </article>
           </div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, aliquid iste eos fugit vero nemo voluptatibus repellendus nihil quo quos repellat, deserunt, unde quasi placeat voluptas ipsum eaque? Nulla, harum!</p>
+          <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>
