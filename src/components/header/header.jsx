@@ -13,6 +13,12 @@ const header = () => {
         <h5 className="text-light">
           Full-stack Web Developer
         </h5>
+        <h5 className="text-light">
+          &
+        </h5>
+        <h5 className="text-light">
+          Photographer
+        </h5>
         <CTA />
         <HeaderSocials />
         

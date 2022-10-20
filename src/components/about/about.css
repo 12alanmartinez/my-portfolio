@@ -42,6 +42,10 @@
     transition: var(--transition);
 }
 
+.sen1{
+padding-top: 1rem;
+}
+
 .about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
