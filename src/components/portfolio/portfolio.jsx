@@ -13,7 +13,7 @@ import IMG6 from '../../assets/portfolio6.jpg'
 const data = [
   {
     id: 1,
-    Image: IMG1,
+    image: IMG1,
     title: 'charts templates & infographics in figma',
     github: 'https://github.com',
     demo: 'https://dribbble.com/alien_pixels'
