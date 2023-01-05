@@ -45,27 +45,27 @@ const services = () => {
           <ul className='service__list'>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Visual appealing, polished, and professional.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Web Design.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Web Development Support and Maintenance.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Web Programming.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>web hosting.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Web Optimization.</p>
             </li>
           </ul>
         </article>
@@ -78,23 +78,31 @@ const services = () => {
           <ul className='service__list'>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Editorial Photography.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Advertising Photography.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Portait Photography.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Event Photography.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Fmaily Photography.</p>
+            </li>
+            <li>
+            <BiCheck className='service__list-icon'/>
+            <p>Baby Photography.</p>
+            </li>
+            <li>
+            <BiCheck className='service__list-icon'/>
+            <p>landscape Photography.</p>
             </li>
           </ul>
         </article>

@@ -5,6 +5,7 @@ import {BiUser} from "react-icons/bi"
 import {BiBook} from "react-icons/bi"
 import {RiServiceLine} from "react-icons/ri"
 import {BiMessageEdit} from "react-icons/bi"
+import {FaRegComment} from "react-icons/fa"
 import { useState } from 'react'
 
 const Nav = () => {
@@ -16,6 +17,7 @@ const Nav = () => {
       <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}> <BiBook/> </a>
       <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}> <RiServiceLine/> </a>
       <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}> <BiMessageEdit/> </a>
+      <a href='#testimonials' onClick={() => setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active' : ''}> <FaRegComment/> </a>
     </nav>
   )
 }

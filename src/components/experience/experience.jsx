@@ -94,6 +94,33 @@ const experience = () => {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>
+                  API'S
+                </h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>
+                  SQLAlchemy
+                </h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>
+                  Node.js
+                </h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>

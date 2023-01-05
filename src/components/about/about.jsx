@@ -24,12 +24,12 @@ const about = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experiences</h5>
-              <small>3+ Years Work</small>
+              <small>9 Months</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
-              <h5>clients</h5>
-              <small>300+ WorldWide</small>
+              <h5>Testimonials</h5>
+              <small>4 poeple</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
@@ -37,7 +37,9 @@ const about = () => {
               <small>20 completed projects</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, aliquid iste eos fugit vero nemo voluptatibus repellendus nihil quo quos repellat, deserunt, unde quasi placeat voluptas ipsum eaque? Nulla, harum!</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus,
+            aliquid iste eos fugit vero nemo voluptatibus repellendus nihil quo quos
+            repellat, deserunt, unde quasi placeat voluptas ipsum eaque? Nulla, harum!</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
