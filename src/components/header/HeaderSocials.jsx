@@ -6,8 +6,8 @@ import {FiTwitter} from 'react-icons/fi'
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-        <a href='https://www.linkedin.com/in/alan-martinez-871202228/' target="_blank" rel="noreferrer"><BsLinkedin/></a>
-        <a href='https://github.com/Cozylillowcas?tab=repositories' target="_blank" rel="noreferrer"><FaGithub/></a>
+        <a href='https://www.linkedin.com/in/12alanmartinez/' target="_blank" rel="noreferrer"><BsLinkedin/></a>
+        <a href='https://github.com/12alanmartinez' target="_blank" rel="noreferrer"><FaGithub/></a>
         <a href='https://twitter.com/AlanLovesToCode' target="_blank" rel="noreferrer"><FiTwitter/></a>
     </div>
   )

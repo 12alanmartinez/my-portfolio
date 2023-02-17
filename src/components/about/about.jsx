@@ -37,9 +37,7 @@ const about = () => {
               <small>20 completed projects</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus,
-            aliquid iste eos fugit vero nemo voluptatibus repellendus nihil quo quos
-            repellat, deserunt, unde quasi placeat voluptas ipsum eaque? Nulla, harum!</p>
+          <p>Hi, my name is Alan and I am a software developer from Arlington, Texas. My favorite coding languages are react.js, CSS, three.js, and python. The Languages, frameworks, and technologies I have more expertise in are HTML5, CSS, Javascript, Python, React.js, Flask, APIS, SQLAlchemy, SQL, and Bootstrap. I have built multiple web-based, multi-threaded, front-end, and back-end applications while using the latest coding web application languages. With the completion of a Full-Stack web developer certification course, I am an eager and passionate software developer for creating interactive web and app designs that eliminate end-user frustrations, I'm excited to expand my knowledge base, curiosity, and test the limits of the programming skills I've accrued over the past year, currently, I am building a personalized Spotify visual data app & copywriting my portfolio website.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
