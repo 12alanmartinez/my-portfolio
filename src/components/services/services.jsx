@@ -5,8 +5,8 @@ import {BiCheck} from 'react-icons/bi'
 const services = () => {
   return (
     <section id='services'>
-      <h5>What I Offer</h5>
-      <h2>services</h2>
+      {/* <h5>What I Offer</h5> */}
+      <h2>Services</h2>
 
       <div className="container services__container" >
         <article className='service'>
@@ -16,27 +16,27 @@ const services = () => {
           <ul className='service__list'>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Website Design</p>
+            <p>Website Design.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>mobile app design</p>
+            <p>Mobile app design.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>user experience </p>
+            <p>User experience.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>responsive Design</p>
+            <p>Responsive Design.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>interaction design</p>
+            <p>Interaction design.</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>tailored Design for you</p>
+            <p>Tailored Design for you.</p>
             </li>
           </ul>
         </article>
@@ -106,7 +106,7 @@ const services = () => {
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>landscape Photography.</p>
+            <p>Landscape Photography.</p>
             </li>
           </ul>
         </article>

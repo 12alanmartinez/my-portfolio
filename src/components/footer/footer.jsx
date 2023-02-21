@@ -23,9 +23,9 @@ const footer = () => {
       </ul>
      
       <div className="footer__socials">
-        <a href='https://www.linkedin.com/in/alan-martinez-871202228/'> <AiFillLinkedin/> </a>
-        <a href='https://github.com/Cozylillowcas'> <AiFillGithub/> </a>
-        <a href='https://twitter.com/AlanLovesToCode'> <AiOutlineTwitter/> </a>
+        <a href='https://www.linkedin.com/in/12alanmartinez/' target="_blank" rel="noreferrer"> <AiFillLinkedin/> </a>
+        <a href='https://github.com/12alanmartinez' target="_blank" rel="noreferrer"> <AiFillGithub/> </a>
+        <a href='https://twitter.com/AlanLovesToCode' target="_blank" rel="noreferrer"> <AiOutlineTwitter/> </a>
       </div>
       <div className="footer__copyright">
         <small>&copy; Alan Martinez. ALL rights reserved.</small>
